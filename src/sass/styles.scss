@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  .menu {
+    margin: 10px 10px 10px 10px;
+    .top {
+      height: 18px;
+      width: 80px;
+      background-color: black;
+      margin-bottom: 13px;
+    }
+    .middle {
+      height: 18px;
+      width: 80px;
+      background-color: black;
+      margin-bottom: 13px;
+    }
+    .bottom {
+      height: 18px;
+      width: 80px;
+      background-color: black;
+    }
+  }
+  .logo {
+    height: 80px;
+    margin: 10px 10px 0 0;
+  }
+}
+.menu:hover .top {
+  animation: spin 1s;
+}
+.menu:hover .middle {
+  animation: spin 1s;
+}
+.menu:hover .bottom {
+  animation: spin 1s;
+}
+.dropdown {
+  display: none;
+}
+.menu:hover .dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 200px;
+  background-color: black;
+  margin-top: 10px;
+  a {
+    margin: 10px;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 30px;
+  }
+}
+
+ .logo:hover {
+   animation: rotate 2s linear;
+
+ }
+@keyframes spin {
+  0%{transform: rotateY(0deg);}
+  100%{transform: rotateY(180deg);}
+}
+
+@keyframes rotate {
+  0% {transform: rotateY(0deg);}
+  100% {transform: rotateY(360deg);}
+}
