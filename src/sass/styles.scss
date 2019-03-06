@@ -238,6 +238,12 @@ header {
   top: 0;
 }
 
+#stars {
+  position: fixed;
+  width: 100%;
+  animation: night 60s infinite;
+}
+
 @keyframes fly {
   0% {
     transform: translateX(100vw) translateY(50vh);
@@ -346,5 +352,13 @@ header {
   25%{opacity: .2;}
   50%{opacity: 0;}
   75%{opacity: .2;}
+  100%{opacity: 1;}
+}
+
+@keyframes night {
+  0%{opacity: 1;}
+  25%{opacity: 0;}
+  50%{opacity: 0;}
+  75%{opacity: 0;}
   100%{opacity: 1;}
 }
