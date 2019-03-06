@@ -5,7 +5,6 @@
 header {
   display: flex;
   justify-content: space-between;
-  z-index: 10;
   .menu {
     position: fixed;
     margin: 10px 10px 10px 10px;
@@ -30,6 +29,7 @@ header {
   .logo {
     height: 80px;
     margin: 10px 10px 0 0;
+    z-index: 3;
   }
 }
 .menu:hover .top {
@@ -65,9 +65,7 @@ header {
    animation: rotate 2s linear;
  }
 
- section {
-   z-index: 0;
- }
+
 
 #water {
   position: fixed;
@@ -197,7 +195,7 @@ header {
   position: fixed;
   width: 40px;
   left: 50vw;
-  animation: jump 2s infinite;
+  animation: jump 2s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
 
@@ -207,7 +205,7 @@ header {
   position: fixed;
   width: 40px;
   left: 60vw;
-  animation: jump 2.3s infinite;
+  animation: jump 2.3s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
 }
@@ -216,7 +214,7 @@ header {
   position: fixed;
   width: 40px;
   left: 63vw;
-  animation: jump 2.4s infinite;
+  animation: jump 2.4s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
 }
@@ -233,15 +231,19 @@ header {
   animation: rise 10s linear infinite;
 }
 
-body {
-    background-image: linear-gradient(#ffe17d, #ffedb5, #FFEDD2);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    // animation: color 10s linear infinite;
+.background {
+  background-image: linear-gradient(#FFF2B4, #FFE17D);
+  background-size: cover;
+  position: fixed;
+  animation: color 10s infinite;
+    width: 150vw;
+    height: 200vh;
+    top: 0;
 
 }
+
+
+
 
 
 @keyframes fly {
@@ -301,8 +303,8 @@ body {
 }
 
 @keyframes hop {
-  0%{transform: translateY(400px);}
-  5%{transform: translateY(400px);}
+  0%{transform: translateY(800px);}
+  5%{transform: translateY(600px);}
   10%{transform: translateY(400px);}
   15%{transform: translateY(300px);}
   20%{transform: translateY(200px);}
@@ -320,8 +322,8 @@ body {
   80%{transform: translateY(200px);}
   85%{transform: translateY(300px);}
   90%{transform: translateY(400px);}
-  95%{transform: translateY(400px);}
-  100%{transform: translateY(400px);}
+  95%{transform: translateY(600px);}
+  100%{transform: translateY(800px);}
 }
 @keyframes rise {
   0%{transform: translateY(100vh);}
@@ -348,25 +350,7 @@ body {
 }
 
 @keyframes color {
-  0%{transform: translateY(100vh);}
-  5%{transform: translateY(100vh);}
-  10%{transform: translateY(80vh);}
-  15%{transform: translateY(55vh);}
-  20%{transform: translateY(35vh);}
-  25%{transform: translateY(20vh);}
-  30%{transform: translateY(10vh);}
-  35%{transform: translateY(5vh);}
-  40%{transform: translateY(2.5vh);}
-  45%{transform: translateY(1.25vh);}
-  50%{transform: translateY(.625vh);}
-  55%{transform: translateY(1.25vh);}
-  60%{transform: translateY(2.5vh);}
-  65%{transform: translateY(5vh);}
-  70%{transform: translateY(10vh);}
-  75%{transform: translateY(20vh);}
-  80%{transform: translateY(35vh);}
-  85%{transform: translateY(55vh);}
-  90%{transform: translateY(80vh);}
-  95%{transform: translateY(100vh);}
-  100%{transform: translateY(100vh);}
+  0%{opacity: 1;}
+  50%{opacity: 0.5;}
+  100%{opacity: 1;}
 }
