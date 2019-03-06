@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="783px" height="210px" viewBox="0 0 783 210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>swordfish</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="18.4952569%" y1="55.7238297%" x2="77.7508939%" y2="50.156511%" id="linearGradient-1">
+            <stop stop-color="#CACACA" offset="0%"></stop>
+            <stop stop-color="#73B2FB" offset="59.5330564%"></stop>
+            <stop stop-color="#2589FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="---" transform="translate(-298.000000, -172.000000)">
+            <g id="swordfish" transform="translate(298.000000, 172.000000)">
+                <path d="M477.232329,185.315797 L463.748351,182.368364 L475.46442,190.173087 L468.51369,209.270061 L409.423819,153 L342,153 C341.833498,152.999534 341.666831,153 341.5,153 C318.186257,153 298.05779,143.908141 288.657072,130.752739 L0,119.5 L283.588943,108.444838 C287.633574,89.5369837 312.020316,75 341.5,75 C341.666831,75 341.833498,75.0004656 342,75.0013949 L342.091696,75 L362.187886,4.97379915e-14 L408.197799,12.3283192 L411.297605,34.5930612 L428.672355,17.81446 L642.091696,75 L654,75 L654,75.7533193 C670.236195,77.9110203 684.049015,84.5488368 692.416223,93.6519454 L780.218904,56.1190685 L780.537824,74.3899938 L746.850474,84.4773209 L780.762251,87.2473717 L782.051407,161.103076 L696.997555,128.206449 C689.830946,140.415845 673.699155,149.628771 654,152.246681 L654,153 L593.556652,153 L584.457396,178 L567.64159,153 L488.994317,153 L477.232329,185.315797 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <circle id="Oval-6" fill="#000000" cx="332.5" cy="97.5" r="7.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

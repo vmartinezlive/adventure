@@ -244,6 +244,15 @@ header {
   animation: night 60s infinite;
 }
 
+#swordfish {
+  position: fixed;
+  width: 300px;
+  bottom: 20vh;
+  animation: sword 10s linear infinite;
+  transform-origin: 200px 300px;
+
+}
+
 @keyframes fly {
   0% {
     transform: translateX(100vw) translateY(50vh);
@@ -361,4 +370,15 @@ header {
   50%{opacity: 0;}
   75%{opacity: 0;}
   100%{opacity: 1;}
+}
+
+@keyframes sword {
+  0%{transform: translate(90vw, 0) rotateZ(120deg);}
+  20%{transform: translate(90vw, 0) rotateZ(-120deg);}
+  21%{transform: translate(50vw, 50vh) rotateZ(120deg);}
+  40%{transform: translate(50vw, 0) rotateZ(120deg);}
+  60%{transform: translate(50vw, 0) rotateZ(-120deg);}
+  61%{transform: translate(10vw, 50vh) rotateZ(120deg);}
+  80%{transform: translate(10vw, 0vh) rotateZ(120deg);}
+  100%{transform: translate(10vw, 0vh) rotateZ(-120deg);}
 }
