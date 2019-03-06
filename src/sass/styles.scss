@@ -7,6 +7,7 @@ header {
   justify-content: space-between;
   z-index: 10;
   .menu {
+    position: fixed;
     margin: 10px 10px 10px 10px;
     .top {
       height: 18px;
@@ -223,10 +224,8 @@ header {
   position: absolute;
   left: 320px;
   top: 50px;
+  animation: hop 6s linear infinite;
 }
-
-
-
 
 @keyframes fly {
   0% {
@@ -282,4 +281,28 @@ header {
 @keyframes jump {
   0%{transform: rotateZ(90deg);}
   100%{transform: rotateZ(-90deg);}
+}
+
+@keyframes hop {
+  0%{transform: translateY(400px);}
+  5%{transform: translateY(400px);}
+  10%{transform: translateY(400px);}
+  15%{transform: translateY(300px);}
+  20%{transform: translateY(200px);}
+  25%{transform: translateY(150px);}
+  30%{transform: translateY(125px);}
+  35%{transform: translateY(110px);}
+  40%{transform: translateY(105px);}
+  45%{transform: translateY(102.5px);}
+  50%{transform: translateY(100px);}
+  55%{transform: translateY(102.5px);}
+  60%{transform: translateY(105px);}
+  65%{transform: translateY(110px);}
+  70%{transform: translateY(125px);}
+  75%{transform: translateY(150px);}
+  80%{transform: translateY(200px);}
+  85%{transform: translateY(300px);}
+  90%{transform: translateY(400px);}
+  95%{transform: translateY(400px);}
+  100%{transform: translateY(400px);}
 }
