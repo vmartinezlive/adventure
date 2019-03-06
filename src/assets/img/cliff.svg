@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="445px" height="640px" viewBox="0 0 445 640" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>cliff</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="cliff" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#000000" x="0" y="0" width="254" height="640"></rect>
+        <polygon id="Triangle-2" fill="#000000" points="254.5 301 64 0 445 0"></polygon>
+        <polygon id="Triangle-2" fill="#000000" points="255 527 209 226 301 226"></polygon>
+    </g>
+</svg>

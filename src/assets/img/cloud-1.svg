@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="293px" height="130px" viewBox="0 0 293 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-685.000000, -164.000000)" fill="#DDDADA">
+            <g id="cloud-1" transform="translate(685.000000, 164.000000)">
+                <path d="M118.876031,36.827659 C125.061551,15.6042851 145.830927,0 170.5,0 C198.735206,0 221.861752,20.4418483 223.859921,46.3538477 C230.457153,44.2135643 237.99486,43 246,43 C271.957383,43 293,55.7598846 293,71.5 C293,87.2401154 271.957383,100 246,100 C229.447562,100 214.893628,94.8114156 206.520155,86.9701152 C197.013775,95.064676 184.373586,100 170.5,100 C164.422938,100 158.582529,99.0530531 153.138494,97.3084317 C142.012368,116.39234 113.016993,130 79,130 C35.3695048,130 0,107.614237 0,80 C0,52.3857625 35.3695048,30 79,30 C93.5448315,30 107.171607,32.4877629 118.876031,36.827659 Z" id="Combined-Shape-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

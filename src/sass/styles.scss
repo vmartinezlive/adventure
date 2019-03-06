@@ -40,15 +40,7 @@ header {
   animation: spin 1s;
 }
 .dropdown {
-  display: none;
-}
-.menu:hover .dropdown {
-  display: flex;
-  flex-direction: column;
-  width: 80px;
-  height: 200px;
-  background-color: black;
-  margin-top: 10px;
+  opacity: 0;
   a {
     margin: 10px;
     font-size: 10px;
@@ -57,17 +49,170 @@ header {
     padding-bottom: 30px;
   }
 }
+.menu:hover .dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 200px;
+  background-color: black;
+  margin-top: 10px;
+  animation: opa 2s .5s forwards;
+}
 
  .logo:hover {
    animation: rotate 2s linear;
-
  }
+
+#water {
+  position: fixed;
+  bottom: 0;
+  left: -200px;
+  z-index: 5;
+  animation: right-wave 10s;
+  animation-iteration-count: infinite;
+  height: 10%;
+}
+
+#light-water {
+  position: fixed;
+  bottom: 1.5vw;
+  left: -230px;
+  z-index: 4;
+  animation: left-wave 10s;
+  animation-iteration-count: infinite;
+  height: 10%;
+}
+
+#lighter-water {
+  position: fixed;
+  bottom: 3vw;
+  left: -200px;
+  z-index: -3;
+  animation: right-wave 10s;
+  animation-iteration-count: infinite;
+  height: 10%;
+}
+
+#lightest-water {
+  position: fixed;
+  bottom: 4.5vw;
+  left: -200px;
+  z-index: -4;
+  animation: left-wave 10s;
+  animation-iteration-count: infinite;
+  height: 10%;
+}
+
+.cliff-guy {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  height: 50%
+}
+
+#guy {
+  position: absolute;
+  right: -32px;
+  top: 0;
+  height: 150px;
+  animation: swing 2s linear;
+  animation-iteration-count: infinite;
+  transform-origin: 0 0;
+}
+
+
+#mount-1 {
+  position: fixed;
+  bottom: 0;
+  left: 55vw;
+  z-index: 0;
+  height: 50%
+}
+
+#mount-2 {
+  position: fixed;
+  bottom: 3vw;
+  left: 35vw;
+  z-index: -1;
+  height: 30%
+}
+
+#mount-3 {
+  position: fixed;
+  bottom: 3vw;
+  left: 80vw;
+  z-index: -2;
+  height: 30%
+}
+
+#mount-4 {
+  position: fixed;
+  bottom: 3vw;
+  left: 25vw;
+  z-index: -3;
+  height: 25%
+}
+
+
+#cloud-3 {
+  position: fixed;
+  top: 17%;
+  animation: cloud-path 140s infinite;
+
+}
+
+#cloud-2 {
+  position: fixed;
+  top: 10%;
+  animation: cloud-path2 150s infinite;
+}
+
+#cloud-1 {
+  position: fixed;
+  top: 25%;
+  animation: cloud-path 120s infinite;
+
+}
+
 @keyframes spin {
   0%{transform: rotateY(0deg);}
   100%{transform: rotateY(180deg);}
 }
 
+@keyframes opa {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
 @keyframes rotate {
   0% {transform: rotateY(0deg);}
   100% {transform: rotateY(360deg);}
+}
+
+@keyframes right-wave {
+  0% {transform:translateX(0);}
+  50% {transform:translateX(65px);}
+  100% {transform:translateX(0);}
+}
+@keyframes left-wave {
+  0% {transform:translateX(0);}
+  50% {transform:translateX(-65px);}
+  100% {transform:translateX(0);}
+}
+
+@keyframes swing {
+  0%{transform: rotateZ(5deg);}
+  50%{transform: rotateZ(10deg);}
+  100%{transform: rotateZ(5deg);}
+}
+
+@keyframes cloud-path {
+  0% {transform:translateX(-55vw);}
+  100% {transform:translateX(100vw);}
+}
+
+@keyframes cloud-path2 {
+  0% {transform:translateX(100vw);}
+  100% {transform:translateX(-55vw);}
 }
