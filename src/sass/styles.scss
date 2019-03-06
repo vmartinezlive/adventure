@@ -227,6 +227,23 @@ header {
   animation: hop 6s linear infinite;
 }
 
+#sun {
+  position: fixed;
+  right: 400px;
+  animation: rise 10s linear infinite;
+}
+
+body {
+    background-image: linear-gradient(#ffe17d, #ffedb5, #FFEDD2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    // animation: color 10s linear infinite;
+
+}
+
+
 @keyframes fly {
   0% {
     transform: translateX(100vw) translateY(50vh);
@@ -305,4 +322,51 @@ header {
   90%{transform: translateY(400px);}
   95%{transform: translateY(400px);}
   100%{transform: translateY(400px);}
+}
+@keyframes rise {
+  0%{transform: translateY(100vh);}
+  5%{transform: translateY(100vh);}
+  10%{transform: translateY(80vh);}
+  15%{transform: translateY(55vh);}
+  20%{transform: translateY(35vh);}
+  25%{transform: translateY(20vh);}
+  30%{transform: translateY(10vh);}
+  35%{transform: translateY(5vh);}
+  40%{transform: translateY(2.5vh);}
+  45%{transform: translateY(1.25vh);}
+  50%{transform: translateY(.625vh);}
+  55%{transform: translateY(1.25vh);}
+  60%{transform: translateY(2.5vh);}
+  65%{transform: translateY(5vh);}
+  70%{transform: translateY(10vh);}
+  75%{transform: translateY(20vh);}
+  80%{transform: translateY(35vh);}
+  85%{transform: translateY(55vh);}
+  90%{transform: translateY(80vh);}
+  95%{transform: translateY(100vh);}
+  100%{transform: translateY(100vh);}
+}
+
+@keyframes color {
+  0%{transform: translateY(100vh);}
+  5%{transform: translateY(100vh);}
+  10%{transform: translateY(80vh);}
+  15%{transform: translateY(55vh);}
+  20%{transform: translateY(35vh);}
+  25%{transform: translateY(20vh);}
+  30%{transform: translateY(10vh);}
+  35%{transform: translateY(5vh);}
+  40%{transform: translateY(2.5vh);}
+  45%{transform: translateY(1.25vh);}
+  50%{transform: translateY(.625vh);}
+  55%{transform: translateY(1.25vh);}
+  60%{transform: translateY(2.5vh);}
+  65%{transform: translateY(5vh);}
+  70%{transform: translateY(10vh);}
+  75%{transform: translateY(20vh);}
+  80%{transform: translateY(35vh);}
+  85%{transform: translateY(55vh);}
+  90%{transform: translateY(80vh);}
+  95%{transform: translateY(100vh);}
+  100%{transform: translateY(100vh);}
 }
