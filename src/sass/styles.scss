@@ -5,6 +5,7 @@
 header {
   display: flex;
   justify-content: space-between;
+  z-index: 10;
   .menu {
     margin: 10px 10px 10px 10px;
     .top {
@@ -63,11 +64,14 @@ header {
    animation: rotate 2s linear;
  }
 
+ section {
+   z-index: 0;
+ }
+
 #water {
   position: fixed;
   bottom: 0;
   left: -200px;
-  z-index: 5;
   animation: right-wave 10s;
   animation-iteration-count: infinite;
   height: 10%;
@@ -77,7 +81,6 @@ header {
   position: fixed;
   bottom: 1.5vw;
   left: -230px;
-  z-index: 4;
   animation: left-wave 10s;
   animation-iteration-count: infinite;
   height: 10%;
@@ -87,7 +90,6 @@ header {
   position: fixed;
   bottom: 3vw;
   left: -200px;
-  z-index: -3;
   animation: right-wave 10s;
   animation-iteration-count: infinite;
   height: 10%;
@@ -96,8 +98,7 @@ header {
 #lightest-water {
   position: fixed;
   bottom: 4.5vw;
-  left: -200px;
-  z-index: -4;
+  left: -230px;
   animation: left-wave 10s;
   animation-iteration-count: infinite;
   height: 10%;
@@ -126,7 +127,6 @@ header {
   position: fixed;
   bottom: 0;
   left: 55vw;
-  z-index: 0;
   height: 50%
 }
 
@@ -134,7 +134,6 @@ header {
   position: fixed;
   bottom: 3vw;
   left: 35vw;
-  z-index: -1;
   height: 30%
 }
 
@@ -142,7 +141,6 @@ header {
   position: fixed;
   bottom: 3vw;
   left: 80vw;
-  z-index: -2;
   height: 30%
 }
 
@@ -150,7 +148,6 @@ header {
   position: fixed;
   bottom: 3vw;
   left: 25vw;
-  z-index: -3;
   height: 25%
 }
 
@@ -172,7 +169,72 @@ header {
   position: fixed;
   top: 25%;
   animation: cloud-path 120s infinite;
+}
 
+#bird-1 {
+  position: fixed;
+  top: 1%;
+  width: 30px;
+  animation: fly 15s linear infinite;
+}
+
+#bird-2 {
+  position: fixed;
+  top: 15%;
+  width: 30px;
+  animation: fly 12s linear infinite;
+}
+
+#bird-3 {
+  top: 20%;
+  position: fixed;
+  width: 30px;
+  animation: fly 9s linear infinite;
+}
+
+#fish-1 {
+  position: fixed;
+  width: 40px;
+  left: 50vw;
+  animation: jump 2s infinite;
+  transform-origin: 0 300px;
+  bottom: 20vh;
+
+}
+
+#fish-2 {
+  position: fixed;
+  width: 40px;
+  left: 60vw;
+  animation: jump 2.3s infinite;
+  transform-origin: 0 300px;
+  bottom: 20vh;
+}
+
+#fish-3 {
+  position: fixed;
+  width: 40px;
+  left: 63vw;
+  animation: jump 2.4s infinite;
+  transform-origin: 0 300px;
+  bottom: 20vh;
+}
+#shark {
+  position: absolute;
+  left: 320px;
+  top: 50px;
+}
+
+
+
+
+@keyframes fly {
+  0% {
+    transform: translateX(100vw) translateY(50vh);
+  }
+  100% {
+    transform: translateX(-55vw) translateY(-55vh);
+  }
 }
 
 @keyframes spin {
@@ -215,4 +277,9 @@ header {
 @keyframes cloud-path2 {
   0% {transform:translateX(100vw);}
   100% {transform:translateX(-55vw);}
+}
+
+@keyframes jump {
+  0%{transform: rotateZ(90deg);}
+  100%{transform: rotateZ(-90deg);}
 }

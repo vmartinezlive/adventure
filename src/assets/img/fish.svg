@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="43px" viewBox="0 0 106 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>fish</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FBD249" offset="0%"></stop>
+            <stop stop-color="#F5A623" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-221.000000, -21.000000)">
+            <g id="fish" transform="translate(221.000000, 21.000000)">
+                <ellipse id="Oval" fill="url(#linearGradient-1)" cx="34.5" cy="22" rx="34.5" ry="17"></ellipse>
+                <path d="M76.5144241,-6.71663489 L97.5144241,50.2019526 C87.8740559,44.5113318 80.7581347,41.6660214 76.1666605,41.6660214 C71.5751864,41.6660214 64.6911076,44.5113318 55.5144241,50.2019526 L76.5144241,-6.71663489 Z" id="Triangle" fill="url(#linearGradient-2)" transform="translate(76.514424, 21.742659) rotate(-91.000000) translate(-76.514424, -21.742659) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

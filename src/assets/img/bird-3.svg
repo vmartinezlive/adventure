@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="92px" viewBox="0 0 140 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bird 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-125.000000, -189.000000)" fill="#000000">
+            <g id="bird-2" transform="translate(209.500000, 214.000000) rotate(31.000000) translate(-209.500000, -214.000000) translate(130.000000, 166.000000)">
+                <circle id="Oval" cx="42" cy="71" r="25"></circle>
+                <polygon id="Triangle" points="0 78 35 60 35 96"></polygon>
+                <ellipse id="Oval-2" cx="81.5" cy="78" rx="53.5" ry="18"></ellipse>
+                <polygon id="Triangle-2" transform="translate(134.849788, 70.619576) rotate(-116.000000) translate(-134.849788, -70.619576) " points="134.849788 52.6195765 152.349788 88.6195765 117.349788 88.6195765"></polygon>
+                <polygon id="Triangle-3" transform="translate(100.477836, 42.046220) rotate(23.000000) translate(-100.477836, -42.046220) " points="100.477836 7.2639886 125.477836 76.8284519 75.4778361 76.8284519"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
