@@ -256,15 +256,17 @@ header {
   background-color: lightblue;
   height: 100vh;
   h1 {
-    display: flex;
-    flex-direction: row;
     font-family: 'Bungee Shade', cursive;
     position: fixed;
     font-size: 5vw;
-    top: 50vh;
+    top: 41vw;
     margin-left: 27.5%;
     div {
       margin-left: 1vw;
+    }
+    .word {
+      display: flex;
+      flex-direction: row;
     }
   }
 }
@@ -278,39 +280,63 @@ header {
 }
 
 #a {
-  animation: title 6s infinite;
+  animation: title 10s .4s infinite;
 }
 
 #d {
-  animation: title 6s .2s infinite;
+  animation: title 10s .6s infinite;
 }
 
 #v {
-  animation: title 6s .4s infinite;
+  animation: title 10s .8s infinite;
 }
 
 #e {
-  animation: title 6s .6s infinite;
+  animation: title 10s 1s infinite;
 }
 
 #n {
-  animation: title 6s .8s infinite;
+  animation: title 10s 1.2s infinite;
 }
 
 #t {
-  animation: title 6s 1s infinite;
+  animation: title 10s 1.4s infinite;
 }
 
 #u {
-  animation: title 6s 1.2s infinite;
+  animation: title 10s 1.6s infinite;
 }
 
 #r {
-  animation: title 6s 1.4s infinite;
+  animation: title 10s 1.8s infinite;
 }
 
 #ee {
-  animation: title 6s 1.6s infinite;
+  animation: title 10s 2s infinite;
+}
+
+#buoy {
+  transform-origin: 1vw 12vw;
+  animation: buoy 20s linear infinite;
+  width: 100%;
+  height: 100%;
+}
+
+.buoy {
+  animation: title 10s 2.4s infinite;
+  position: fixed;
+  top: 30vw;
+  left: 80vw;
+  width: 6vw;
+  height: 16vw;
+}
+
+#refugee {
+  width: 8vw;
+  position: fixed;
+  left: 15vw;
+  top: 40vw;
+  animation: title 10s infinite;
 }
 
 
@@ -446,7 +472,18 @@ header {
 
 @keyframes title {
   0%{transform: translateY(0);}
-  50%{transform: translateY(-20vh);}
+  50%{transform: translateY(-10vh);}
   100%{transform: translateY(0);}
+}
 
+@keyframes buoy {
+  0% {transform: rotateZ(18deg);}
+  12% {transform: rotateZ(15);}
+  25% {transform: rotateZ(0);}
+  37% {transform: rotateZ(-15deg);}
+  50% {transform: rotateZ(-18deg);}
+  63% {transform: rotateZ(-15deg);}
+  75% {transform: rotateZ(0);}
+  88% {transform: rotateZ(15deg);}
+  100% {transform: rotateZ(18deg);}
 }

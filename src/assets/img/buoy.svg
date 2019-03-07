@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="436px" viewBox="0 0 152 436" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>buoy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="buoy" transform="translate(-427.000000, -126.000000)">
+            <g transform="translate(427.000000, 126.000000)">
+                <path d="M42.0816,214 L53.6059485,132 L52,132 L52,124 L54.7302751,124 L70.7519303,10 L73,10.3159456 L73,10 L81,10 L81,10.2701398 L82.9221445,10 L98.9437997,124 L102,124 L102,132 L100.068126,132 L111.592475,214 L114,214 L114,222 L112.716802,222 L124.674075,307.080421 L116.75193,308.193805 L104.638181,222 L81,222 L81,285 L73,285 L73,222 L49.0358939,222 L36.9221445,308.193805 L29,307.080421 L40.9572733,222 L39,222 L39,214 L42.0816,214 Z M50.1602206,214 L73,214 L73,132 L61.684569,132 L50.1602206,214 Z M81,214 L103.513854,214 L91.9895058,132 L81,132 L81,214 Z M90.8651791,124 L81,53.8056031 L81,124 L90.8651791,124 Z M73,124 L73,51.4865251 L62.8088957,124 L73,124 Z" id="Combined-Shape" fill="#D8D8D8"></path>
+                <circle id="Oval-7" stroke="#979797" fill="#FF0000" cx="76" cy="360" r="75"></circle>
+                <path d="M0,360 L152,360 C152,401.973641 117.973641,436 76,436 C34.026359,436 0,401.973641 0,360 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <circle id="Oval-8" fill="#FF0000" cx="76.5" cy="12.5" r="12.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

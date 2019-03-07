@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="341px" height="459px" viewBox="0 0 341 459" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>refugee</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="buoy" transform="translate(-175.000000, -138.000000)">
+            <g id="refugee" transform="translate(175.000000, 138.000000)">
+                <rect id="Rectangle-5" fill="#000000" x="158" y="167" width="25" height="91"></rect>
+                <rect id="Rectangle-5" fill="#000000" x="206" y="347" width="25" height="112"></rect>
+                <rect id="Rectangle-5" fill="#000000" x="110" y="347" width="25" height="112"></rect>
+                <rect id="Rectangle-5" fill="#000000" transform="translate(146.438950, 304.571247) rotate(27.000000) translate(-146.438950, -304.571247) " x="133.93895" y="248.571247" width="25" height="112"></rect>
+                <rect id="Rectangle-5" fill="#000000" transform="translate(194.561050, 304.571247) scale(-1, 1) rotate(27.000000) translate(-194.561050, -304.571247) " x="182.06105" y="248.571247" width="25" height="112"></rect>
+                <path d="M170.5,249 C76.3354502,249 0,220.570082 0,185.5 C0,150.429918 76.3354502,122 170.5,122 C264.66455,122 341,150.429918 341,185.5 C341,220.570082 264.66455,249 170.5,249 Z M170.5,222 C224.900048,222 269,205.658393 269,185.5 C269,165.341607 224.900048,149 170.5,149 C116.099952,149 72,165.341607 72,185.5 C72,205.658393 116.099952,222 170.5,222 Z" id="Combined-Shape" fill="#F5A623"></path>
+                <rect id="Rectangle-5" fill="#000000" x="158" y="91" width="25" height="112"></rect>
+                <rect id="Rectangle-5" fill="#000000" x="75" y="157" width="25" height="112"></rect>
+                <rect id="Rectangle-5" fill="#000000" x="241" y="157" width="25" height="112"></rect>
+                <rect id="Rectangle-5" fill="#000000" transform="translate(126.200926, 132.058659) rotate(51.000000) translate(-126.200926, -132.058659) " x="113.700926" y="76.0586588" width="25" height="112"></rect>
+                <rect id="Rectangle-5" fill="#000000" transform="translate(215.386679, 131.956266) scale(-1, 1) rotate(51.000000) translate(-215.386679, -131.956266) " x="202.886679" y="75.9562664" width="25" height="112"></rect>
+                <ellipse id="Oval-10" fill="#000000" cx="171" cy="46" rx="48" ry="46"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
