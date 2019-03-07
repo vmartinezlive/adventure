@@ -119,6 +119,13 @@ header {
   transform-origin: 0 0;
 }
 
+#mountain-range {
+  position: fixed;
+  bottom: -2vw;
+  left: 10px;
+  width: 150vw;
+  height: 45%;
+}
 
 #mount-1 {
   position: fixed;
@@ -191,7 +198,7 @@ header {
 #fish-1 {
   position: fixed;
   width: 40px;
-  left: 50vw;
+  left: 45vw;
   animation: jump 2s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
@@ -201,7 +208,7 @@ header {
 #fish-2 {
   position: fixed;
   width: 40px;
-  left: 55vw;
+  left: 50vw;
   animation: jump 2.3s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
@@ -210,7 +217,7 @@ header {
 #fish-3 {
   position: fixed;
   width: 40px;
-  left: 60vw;
+  left: 55vw;
   animation: jump 2.4s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
@@ -219,7 +226,7 @@ header {
 #fish-4 {
   position: fixed;
   width: 40px;
-  left: 45vw;
+  left: 60vw;
   animation: jump 1.8s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
@@ -228,7 +235,7 @@ header {
 #fish-5 {
   position: fixed;
   width: 40px;
-  left: 40vw;
+  left: 65vw;
   animation: jump 2.2s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
@@ -237,7 +244,7 @@ header {
 #fish-6 {
   position: fixed;
   width: 40px;
-  left: 65vw;
+  left: 70vw;
   animation: jump 1.7s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
@@ -246,7 +253,7 @@ header {
 #fish-7 {
   position: fixed;
   width: 40px;
-  left: 70vw;
+  left: 75vw;
   animation: jump 2.5s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
@@ -255,7 +262,7 @@ header {
 #fish-8 {
   position: fixed;
   width: 40px;
-  left: 75vw;
+  left: 80vw;
   animation: jump 3s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
@@ -264,7 +271,7 @@ header {
 #fish-9 {
   position: fixed;
   width: 40px;
-  left: 80vw;
+  left: 85vw;
   animation: jump 1.8s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
@@ -308,13 +315,13 @@ header {
 }
 
 .adventure {
-  background-color: lightblue;
+  background-color: #5bf9ff;
   height: 100vh;
   h1 {
     font-family: 'Bungee Shade', cursive;
     position: fixed;
     font-size: 5vw;
-    top: 41vw;
+    top: 20vw;
     margin-left: 27.5%;
     div {
       margin-left: 1vw;
@@ -380,7 +387,7 @@ header {
 .buoy {
   animation: title 10s 2.4s infinite;
   position: fixed;
-  top: 30vw;
+  top: 10vw;
   left: 80vw;
   width: 6vw;
   height: 16vw;
@@ -390,8 +397,22 @@ header {
   width: 8vw;
   position: fixed;
   left: 15vw;
-  top: 40vw;
+  top: 20vw;
   animation: title 10s infinite;
+}
+
+#whale {
+  position: fixed;
+  bottom: 2vw;
+  right: 10vw;
+  width: 35vw;
+  animation: whale 20s infinite;
+}
+
+@keyframes whale {
+  0%{transform: translateY(10vw)}
+  50%{transform: translateY(0vw)}
+  100%{transform: translateY(10vw)}
 }
 
 @keyframes fly {

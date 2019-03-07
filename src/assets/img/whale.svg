@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="839px" height="203px" viewBox="0 0 839 203" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>whale</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="whale" transform="translate(-165.000000, -255.000000)">
+            <g transform="translate(165.000000, 255.000000)">
+                <path d="M838,113.868919 L838,203 L22.6971046,203 C8.07072462,186.053976 0,167.47864 0,148 C0,68.470996 134.538433,4 300.5,4 C398.249339,4 485.097784,26.3654161 539.976428,61 L543.214216,61 C573.754305,78.7150289 619.884329,90 671.5,90 C697.429512,90 721.974651,87.1520918 743.85443,82.0717636 L742.780205,81.5708442 L838.539846,0.439215209 L838,113.868919 Z" id="Combined-Shape" fill="#0460CB"></path>
+                <ellipse id="Oval-2" fill="#000000" cx="289.5" cy="22.5" rx="18.5" ry="7.5"></ellipse>
+                <circle id="Oval-12" fill="#FFFFFF" cx="166" cy="98" r="25"></circle>
+                <ellipse id="Oval-13" fill="#000000" cx="156" cy="89.5" rx="11" ry="9.5"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
