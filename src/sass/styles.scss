@@ -274,7 +274,7 @@ header {
   position: absolute;
   left: 320px;
   top: 50px;
-  animation: hop 6s linear infinite;
+  animation: hop 12s linear infinite;
 }
 
 #sun {
@@ -394,7 +394,6 @@ header {
   animation: title 10s infinite;
 }
 
-
 @keyframes fly {
   0% {
     transform: translateX(100vw) translateY(50vh);
@@ -453,27 +452,30 @@ header {
 
 @keyframes hop {
   0%{transform: translateY(800px);}
-  5%{transform: translateY(600px);}
-  10%{transform: translateY(400px);}
-  15%{transform: translateY(300px);}
-  20%{transform: translateY(200px);}
-  25%{transform: translateY(150px);}
-  30%{transform: translateY(125px);}
-  35%{transform: translateY(110px);}
-  40%{transform: translateY(105px);}
-  45%{transform: translateY(102.5px);}
+  25%{transform: translateY(800px);}
+  27%{transform: translateY(600px);}
+  30%{transform: translateY(600px);}
+  32%{transform: translateY(490px);}
+  35%{transform: translateY(350px);}
+  37%{transform: translateY(260px);}
+  40%{transform: translateY(180px);}
+  42%{transform: translateY(130px);}
+  45%{transform: translateY(110px);}
+  47%{transform: translateY(102.5px);}
   50%{transform: translateY(100px);}
-  55%{transform: translateY(102.5px);}
-  60%{transform: translateY(105px);}
-  65%{transform: translateY(110px);}
-  70%{transform: translateY(125px);}
-  75%{transform: translateY(150px);}
-  80%{transform: translateY(200px);}
-  85%{transform: translateY(300px);}
-  90%{transform: translateY(400px);}
-  95%{transform: translateY(600px);}
+  53%{transform: translateY(102.5px);}
+  55%{transform: translateY(110px);}
+  58%{transform: translateY(130px);}
+  60%{transform: translateY(180px);}
+  63%{transform: translateY(260px);}
+  65%{transform: translateY(350px);}
+  68%{transform: translateY(490px);}
+  70%{transform: translateY(600px);}
+  73%{transform: translateY(600px);}
+  75%{transform: translateY(800px);}
   100%{transform: translateY(800px);}
 }
+
 @keyframes rise {
   0%{transform: translateY(100vh);}
   5%{transform: translateY(100vh);}
