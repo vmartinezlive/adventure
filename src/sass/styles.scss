@@ -201,7 +201,7 @@ header {
 #fish-2 {
   position: fixed;
   width: 40px;
-  left: 60vw;
+  left: 55vw;
   animation: jump 2.3s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
@@ -210,11 +210,66 @@ header {
 #fish-3 {
   position: fixed;
   width: 40px;
-  left: 63vw;
+  left: 60vw;
   animation: jump 2.4s linear infinite;
   transform-origin: 0 300px;
   bottom: 20vh;
 }
+
+#fish-4 {
+  position: fixed;
+  width: 40px;
+  left: 45vw;
+  animation: jump 1.8s linear infinite;
+  transform-origin: 0 300px;
+  bottom: 20vh;
+}
+
+#fish-5 {
+  position: fixed;
+  width: 40px;
+  left: 40vw;
+  animation: jump 2.2s linear infinite;
+  transform-origin: 0 300px;
+  bottom: 20vh;
+}
+
+#fish-6 {
+  position: fixed;
+  width: 40px;
+  left: 65vw;
+  animation: jump 1.7s linear infinite;
+  transform-origin: 0 300px;
+  bottom: 20vh;
+}
+
+#fish-7 {
+  position: fixed;
+  width: 40px;
+  left: 70vw;
+  animation: jump 2.5s linear infinite;
+  transform-origin: 0 300px;
+  bottom: 20vh;
+}
+
+#fish-8 {
+  position: fixed;
+  width: 40px;
+  left: 75vw;
+  animation: jump 3s linear infinite;
+  transform-origin: 0 300px;
+  bottom: 20vh;
+}
+
+#fish-9 {
+  position: fixed;
+  width: 40px;
+  left: 80vw;
+  animation: jump 1.8s linear infinite;
+  transform-origin: 0 300px;
+  bottom: 20vh;
+}
+
 #shark {
   position: absolute;
   left: 320px;
