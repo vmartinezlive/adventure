@@ -78,7 +78,7 @@ header {
   position: fixed;
   bottom: 1.5vw;
   left: -230px;
-  animation: left-wave 10s;
+  animation: left-wave 10s 2s;
   animation-iteration-count: infinite;
   height: 10%;
 }
@@ -87,7 +87,7 @@ header {
   position: fixed;
   bottom: 3vw;
   left: -200px;
-  animation: right-wave 10s;
+  animation: right-wave 10s 4s;
   animation-iteration-count: infinite;
   height: 10%;
 }
@@ -96,7 +96,7 @@ header {
   position: fixed;
   bottom: 4.5vw;
   left: -230px;
-  animation: left-wave 10s;
+  animation: left-wave 10s 6s;
   animation-iteration-count: infinite;
   height: 10%;
 }
@@ -407,6 +407,19 @@ header {
   right: 10vw;
   width: 35vw;
   animation: whale 20s infinite;
+}
+
+#fish {
+  position: fixed;
+  top: 32vw;
+  right: 0;
+  width: 5vw;
+  animation: coverfish 15s linear infinite;
+}
+
+@keyframes coverfish {
+  0%{transform: translateX(20vw);}
+  100%{transform: translateX(-110vw);}
 }
 
 @keyframes whale {
