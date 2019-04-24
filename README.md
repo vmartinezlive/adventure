@@ -15,7 +15,7 @@ A mock landing page emphasizing in custom sketch work and custom styling
 * Run program: npm run start
 
 ## Screenshot of project
-![](src/assets/img/Screen Shot 2019-04-24 at 8.30.07 AM.png)
+![](src/assets/img/screenshot3.png)
 
 ![](src/assets/img/photo2.png)
 
