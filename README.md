@@ -2,7 +2,7 @@
 
 #### A mock landing page for Adventure site
 
-#### By _**{List of contributors}**_
+#### By Victoria Martinez and Noyami Morita
 
 ## Description
 
